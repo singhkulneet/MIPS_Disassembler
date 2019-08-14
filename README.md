@@ -1,5 +1,5 @@
 # MIPS_Disassembler
-This is a C++ Program that will automatically disassemble object files to an assembly language file ".s".
+This is a C++ Program that will automatically disassemble an object file ".obj" to an assembly language file ".s".
 
 # Build Instructions:
 This code for myDisassembler was written in C++. The source code file is named myDisassembler.cpp, this file can be compiled and built by any C++ 11 compiler. In the command prompt you must change directories in to the folder where the file is contained. Then the compile command along with the source file name should be executed in the command prompt. The example for the Visual Studio 2017 developer command prompt is: “cl /EHsc myDisassembler.cpp”. Then the compiler should compile without errors and create an executable file in the same directory named myDisassembler.exe. In order to run the program, the object file should be in the same directory, the command to run it is illustrated best with and example with test_case1.obj as follows: “myDisassembler test_case1.obj”. This command should execute the program and create a test_case1.s output file (assuming no errors are found in the object file).
