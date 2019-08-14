@@ -8,7 +8,7 @@ This code for myDisassembler was written in C++. The source code file is named m
  ```
  g++ myDisassembler.cpp -o myDisassembler.exe
  ```
-## Linux Test Run 
+## Linux Test Run:
 ```
 ./myDisassembler.exe test_case3.obj
 ```
